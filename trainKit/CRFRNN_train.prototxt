@@ -673,10 +673,10 @@ layer {
   multi_stage_meanfield_param {
 	spatial_filter_weights_str: "3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3"
 	bilateral_filter_weights_str: "5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5"
-	num_iterations: 5
+	num_iterations: 10
 	compatibility_mode: POTTS
 	threshold: 2
-	theta_alpha: 59
+	theta_alpha: 160
 	theta_beta: 3
 	theta_gamma: 3
   }
